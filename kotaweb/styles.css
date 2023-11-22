@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgba(235, 7, 53, 0.692);
+}
+
+
+/* Header styles */
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#header ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Banner styles */
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+/* Section title styles */
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Menu styles */
+#menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+.menu-item p {
+    font-size: 18px;
+}
+
+.kota-img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 15px;
+
+}
+
+/* Footer styles */
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#footer ul li {
+    display: inline;
+    margin: 5px 10px;
+}
+
+#footer ul li:first-child {
+    margin-left: 0;
+}
+
+#footer ul li:last-child {
+    margin-right: 0;
+}
+
+#button1,
+#button2,
+#button3 {
+    /* Add your button styles here */
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#button1:hover,
+#button2:hover,
+#button3:hover {
+    /* Add your button hover styles here */
+    background-color: #2980b9;
+}
